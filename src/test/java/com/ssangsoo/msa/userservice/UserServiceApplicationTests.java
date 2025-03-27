@@ -1,10 +1,10 @@
-package com.ssangsoo.msa.userserivce;
+package com.ssangsoo.msa.userservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class UserSerivceApplicationTests {
+class UserServiceApplicationTests {
 
     @Test
     void contextLoads() {
