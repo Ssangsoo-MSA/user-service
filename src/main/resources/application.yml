@@ -1,11 +1,13 @@
 server:
-  port: 9001
+  port: 0 # 0을 넣으면 랜덤으로 포트가 지정됨
 
 spring:
   application:
     name: user-service
 
 eureka:
+  instance:
+    instance-id: ${spring.cloud.client.hostname}:${spring.application.instance_id:${random.value}}
   client:
     register-with-eureka: true # EUREKA 서버에 이 애플리케이션을 등록할지 여부
     fetch-registry: true
