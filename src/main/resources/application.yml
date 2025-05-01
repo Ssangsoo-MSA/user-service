@@ -1,5 +1,5 @@
 server:
-  port: 0 # 0을 넣으면 랜덤으로 포트가 지정됨 - 깃허브 잔디 테스트
+  port: 0 # 0을 넣으면 랜덤으로 포트가 지정됨
 
 spring:
   application:
